@@ -64,7 +64,7 @@ class _GadgetListState extends State<GadgetList> {
         builder: (context, constraints) {
           return GridView.builder(
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: screenWidth > 600 ? 5 : 2, // 3 columns on larger screens
+              crossAxisCount: screenWidth > 600 ? 4 : 2, // 3 columns on larger screens
               crossAxisSpacing: 10.0,
               mainAxisSpacing: 10.0,
               childAspectRatio: 0.8,
